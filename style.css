@@ -22,7 +22,7 @@ header {
     color: white;
     margin: auto;
     min-width: 470px;
-    max-width: 800px;
+    max-width: 840px;
 }
 
 header h1 {
@@ -108,7 +108,7 @@ picture {
     background-color: #4FB17B;
     min-width: 470px;
     max-width: 840px;
-    padding-bottom: 56.5%;
+    padding-bottom: clamp(300px, 55.6%, 500px);
     position: relative;
 }
 
@@ -120,6 +120,8 @@ iframe {
     left: 6%;
     width: 88.5%;
     height: 88.5%;
+    max-width: 840px;
+    max-height: 470px;
 }
 
 strong {
