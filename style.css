@@ -1,0 +1,222 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@font-face {
+    font-family: 'idroid';
+    src: url('fontes/idroid.otf') format('opentype');
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+    background-color: #3DDB84;
+}
+
+header {
+    background: linear-gradient(to top, #485C51, #3DDB84);
+    display: inline-block;
+    width: 100%;
+    color: white;
+}
+
+header h1 {
+    display: block;
+    font-family: Bebas Neue, Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 50px;
+    margin-bottom: 5px;
+    text-shadow: 2px 1px 10px rgba(0, 0, 0, 0.384);
+}
+
+.header-elements {
+    text-align: center;
+}
+
+header p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    margin: 0 auto 20px auto;
+    text-shadow: 2px 1px 10px rgba(0, 0, 0, 0.384);
+}
+
+
+nav > a {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: bold;
+    padding: 5px 15px;
+    border-radius: 8px 8px 0px 0px;
+    font-size: 15px;
+}
+
+nav > a:hover {
+    background-color: #4FB17B;
+    transition: background-color 0.3s ease;
+}
+
+main {
+    background-color: white;
+    padding: 20px;
+    margin-top: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: #3DDB84;
+    font-weight: bold;
+}
+
+main a::after, div a::after {
+    content: "🔗";
+}
+
+main > a:hover {
+    text-decoration: underline;
+
+}
+
+main h1, main h2 {
+    font-family: 'idroid', Arial, Helvetica, sans-serif;
+    color: #52866A;
+}
+
+main > h2 {
+    background: linear-gradient(to right, #3ddb8471, white);
+    padding: 2px 5px;
+}
+
+main p {
+    text-indent: 15px;
+    line-height: 2em;
+}
+
+picture {
+    display: block;
+    text-align: center;
+}
+
+#youtube-video {
+    background-color: #4FB17B;
+    min-width: 470px;
+    max-width: 840px;
+    padding-bottom: 56.5%;
+    position: relative;
+}
+
+iframe {
+    display: flex;
+    margin: auto;
+    position: absolute;
+    top: 6%;
+    left: 6%;
+    width: 88.5%;
+    height: 88.5%;
+}
+
+strong {
+    color: #4FB17B;
+}
+
+#extra {
+    display: block;
+    padding: 5px 20px;
+    background-color: white;
+    text-align: center;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+#qpm {
+    display: inline-block;
+    background-color: rgba(0, 255, 0, 0.19);
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+#qpm h2 {
+    width: 100%;
+    display: inline-block;
+    background-color: #4FB17B;
+    color: white;
+    font-size: 20px;
+    padding: 10px 0px;
+    margin: 0px auto 0px auto;
+    text-indent: 10px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+#qpm-content {
+    text-indent: 20px;
+    padding: 20px;
+    text-align: justify;
+}
+
+ul li::before {
+    content: "✓  ";
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    text-indent: 0px;
+    padding-left: 0px;
+    margin: 0 auto;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.doce-1 {
+    display: inline-block;
+    margin: 0px 80px 0px 0px;
+}
+
+.doce-2 {
+    display: inline-block;
+}
+
+#final {
+    text-indent: 20px;
+    text-align: left;
+}
+
+footer {
+    background-color: #2C332F;
+    text-align: center;
+    padding: 10px 0px;
+    margin-top: 10px;
+    color: white;
+    font-style: italic;
+    min-width: 470px;
+    max-width: 840px;
+}
+
+footer a, footer strong{
+    font-style: normal;
+    color: white;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+img {
+    width: 100%;
+}
+
+.content {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.26);
+    min-width: 430px;
+    max-width: 800px;
+    margin: auto;
+}
+
+#bugroid {
+    max-width: 350px;
+}
